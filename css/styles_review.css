@@ -1,0 +1,104 @@
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group.inline {
+            flex-direction: row;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .form-group.inline label {
+            flex: 1;
+        }
+
+        .form-group.inline input,
+        .form-group.inline select {
+            flex: 2;
+        }
+        .form-group.inline .firstName-group,
+        .form-group.inline .lastName-group,
+        .form-group.inline .email-group,
+        .form-group.inline .password-group,
+        .form-group.inline .date-group,
+        .form-group.inline .time-group {
+            flex: 1;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-group.checkbox-group,
+        .form-group.radio-group {
+            flex-direction: row;
+        }
+
+
+        .form-group.checkbox-group label,
+        .form-group.radio-group label {
+            flex: row;
+            margin-right: 1rem;
+        }
+
+        .form-group.radio-group {
+            flex-direction: row;
+        }
+
+        .checkbox-element, .radio-element {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .checkbox-element input, .radio-element input  {
+            margin-bottom: 0.5rem;
+        }
+
+
+        button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+
+
+        #feedbackImg{
+            display: block; 
+            margin: -70px auto 2px;
+            width: 500px;
+        }

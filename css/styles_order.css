@@ -1,0 +1,28 @@
+#cart h2{
+    text-align: center;
+}
+
+#cart ul{
+    margin-left: 20px;
+}
+
+#cart p {
+    margin-left: 60px;
+}
+
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

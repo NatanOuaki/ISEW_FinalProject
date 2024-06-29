@@ -1,0 +1,63 @@
+
+.menu-category {
+    margin: 20px 20px 0px 20px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+
+.menu-category h2 {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.menu-category h2:hover {
+    color: #050A30;
+}
+
+.menu-items {
+    display: none;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-items.active {
+    display: grid;
+}
+
+.menu-item {
+    display: flex; /* Set display to flex to use flexbox properties */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Space between the top content and the bottom button */
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.menu-item-title{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.menu-item .item_purchase{
+    margin-top: auto; /* Pushes the purchase button to the bottom */
+    padding: 10px 0; /* Add some padding */
+    width: 100%; /* Ensures the purchase button stretches to the full width */
+    text-align: center; /* Center the text inside the purchase button */
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
