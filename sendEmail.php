@@ -44,8 +44,8 @@ $mail->SMTPAuth = true;
 $mail->Host = "ssl0.ovh.net";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
-$mail->Username = "nodev@nodev.tech";
-$mail->Password = "NO31102000";
+$mail->Username = "usernameEmail";
+$mail->Password = "passwordEmail";
 
 $mail->setFrom($email, $firstName . " " . $lastName);
 $mail->addAddress("nodev@nodev.tech", "Natan");
